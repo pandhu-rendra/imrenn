@@ -315,7 +315,7 @@ function App() {
               {/* TODO: replace the placeholder with the owner's real email address. */}
               <a className="button button-primary" href="mailto:pandhu.rendra@proton.me">Send an email<ArrowUpRight size={17} aria-hidden="true" /></a>
               <div className="contact-links">
-                <a href="https://github.com/imrenn" target="_blank" rel="noreferrer"><Code2 size={17} aria-hidden="true" /> GitHub <ExternalLink size={13} aria-hidden="true" /></a>
+                <a href="https://github.com/pandhu-rendra" target="_blank" rel="noreferrer"><Code2 size={17} aria-hidden="true" /> GitHub <ExternalLink size={13} aria-hidden="true" /></a>
                 <span><Circle size={7} fill="currentColor" aria-hidden="true" /> Discord: moss.you</span>
               </div>
             </div>
