@@ -41,7 +41,7 @@ const projects: Project[] = [
     category: 'Development & Automation',
     description:
       'A personal technology initiative for web development, automation scripts, and software tooling.',
-    technologies: ['TypeScript', 'JavaScript', 'React', 'Node.js'],
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Drizzle'],
     detail:
       'A place to turn small technical ideas into working experiments, with an emphasis on reusable tools and learning by shipping.',
     accent: 'amber',
@@ -52,20 +52,20 @@ const projects: Project[] = [
     category: 'Community Platform',
     description:
       'A digital space designed to bring people together through social interaction and community activities.',
-    technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
     detail:
       'A frontend-focused project exploring how a simple interface can make community participation feel clear and welcoming.',
     accent: 'rose',
     links: ['https://titiktemu.space'],
   },
   {
-    title: 'Smart Security Locker',
-    category: 'IoT & Embedded Systems',
+    title: 'SynapseOS',
+    category: 'Software Ecosystem & Development',
     description:
-      'An experimental smart locker using an ESP32 and electronic components to explore IoT-based security systems.',
-    technologies: ['ESP32', 'Arduino', 'C++', 'HC-SR04', 'OLED'],
+      'A personal operating system project exploring software ecosystems, development workflows, and system design.',
+    technologies: ['Linux', 'C++', 'Bash', 'Makefile'],
     detail:
-      'A hands-on hardware experiment connecting sensors, a microcontroller, and a small display into one physical security concept.',
+      'A small-scale operating system project that experiments with software ecosystems, development workflows, and the integration of hardware components.',
     accent: 'violet',
     links: [],
   },
