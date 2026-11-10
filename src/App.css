@@ -87,8 +87,10 @@ h2 { font-size: clamp(43px, 6vw, 76px); }
 .modal-close { position: absolute; top: 17px; right: 17px; display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid var(--border); border-radius: 6px; color: var(--fg); background: transparent; }
 .modal-close:hover { background: var(--surface-hover); }
 .project-modal h2 { font-size: 47px; margin-bottom: 21px; }
-.project-modal > p:not(.eyebrow):not(.modal-placeholder) { color: var(--fg-muted); font-size: 16px; line-height: 1.7; }
-.modal-placeholder { margin: 28px 0 0; color: var(--fg-muted); font-size: 12px; font-style: italic; line-height: 1.5; }
+.project-modal > p:not(.eyebrow) { color: var(--fg-muted); font-size: 16px; line-height: 1.7; }
+.modal-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 28px; }
+.modal-link { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); font-size: 13px; font-style: normal; text-decoration: none; transition: color .2s ease, transform .2s ease; }
+.modal-link:hover { color: var(--fg); transform: translateY(-1px); }
 @media (max-width: 760px) {
   .section-wrap, .site-header { width: calc(100% - 32px); }
   .site-header { top: 10px; }
