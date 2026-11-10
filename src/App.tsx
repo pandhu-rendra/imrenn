@@ -343,7 +343,7 @@ function App() {
               <h2>{selectedProject.title}</h2>
               <p>{selectedProject.detail}</p>
               <ul className="tag-list">{selectedProject.technologies.map((technology) => <li key={technology}>{technology}</li>)}</ul>
-              <p className="modal-placeholder">{selectedProject.links.map((links) => <a href={links} target="_blank" rel="noreferrer" key={links}>Go to preview</a>)}</p>
+              <p className="modal-placeholder">{selectedProject.links.map((links) => <a href={links} target="_blank" rel="noreferrer" key={links}>Go to preview</a>)}<ArrowUpRight size={15} aria-hidden="true" /></p>
             </motion.dialog>
           </motion.div>
         )}
