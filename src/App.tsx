@@ -21,6 +21,7 @@ type Project = {
   technologies: string[]
   detail: string
   accent: string
+  links: string[]
 }
 
 const projects: Project[] = [
@@ -33,6 +34,7 @@ const projects: Project[] = [
     detail:
       'An ongoing exploration of the systems behind game hosting: server orchestration, administration workflows, and the tooling that keeps a hosted environment understandable.',
     accent: 'teal',
+    links: [],
   },
   {
     title: 'AltivonLabs',
@@ -43,6 +45,7 @@ const projects: Project[] = [
     detail:
       'A place to turn small technical ideas into working experiments, with an emphasis on reusable tools and learning by shipping.',
     accent: 'amber',
+    links: ['https://altivon.my.id'],
   },
   {
     title: 'Titik Temu',
@@ -53,6 +56,7 @@ const projects: Project[] = [
     detail:
       'A frontend-focused project exploring how a simple interface can make community participation feel clear and welcoming.',
     accent: 'rose',
+    links: ['https://titiktemu.space'],
   },
   {
     title: 'Smart Security Locker',
@@ -63,6 +67,7 @@ const projects: Project[] = [
     detail:
       'A hands-on hardware experiment connecting sensors, a microcontroller, and a small display into one physical security concept.',
     accent: 'violet',
+    links: [],
   },
 ]
 
@@ -338,7 +343,7 @@ function App() {
               <h2>{selectedProject.title}</h2>
               <p>{selectedProject.detail}</p>
               <ul className="tag-list">{selectedProject.technologies.map((technology) => <li key={technology}>{technology}</li>)}</ul>
-              <p className="modal-placeholder">Live and source links will be added when the real project URLs are available.</p>
+              <p className="modal-placeholder">{selectedProject.links.map((links) => <a href={links} target="_blank" rel="noreferrer" key={links}>Go to preview</a>)}</p>
             </motion.dialog>
           </motion.div>
         )}
