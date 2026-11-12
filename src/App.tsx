@@ -26,24 +26,24 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: 'LokaNode',
-    category: 'Infrastructure & Hosting',
+    title: 'SynapseOS Control',
+    category: 'DevOps & Container Management',
     description:
-      'A Minecraft hosting platform focused on infrastructure management, server administration, and hosting technology.',
-    technologies: ['Linux', 'Docker', 'Pterodactyl', 'Node.js', 'PHP'],
+      'A local-first Docker management app with a Go API and React dashboard for monitoring and controlling containers on your own machine.',
+    technologies: ['Go', 'React', 'Vite', 'Docker'],
     detail:
-      'An ongoing exploration of the systems behind game hosting: server orchestration, administration workflows, and the tooling that keeps a hosted environment understandable.',
+      'Connects directly to the local Docker Engine to list live containers, inspect non-secret details, run lifecycle actions, and read bounded logs. Includes real-data Overview and Host views, runtime settings, and API token protection, with the API bound to localhost by default.',
     accent: 'teal',
-    links: [],
+    links: ['https://github.com/pandhu-rendra/synapseos-control'],
   },
   {
     title: 'AltivonLabs',
-    category: 'Development & Automation',
+    category: 'Digital Products & Automation',
     description:
-      'A personal technology initiative for web development, automation scripts, and software tooling.',
+      'A digital product studio selling minimalist automation scripts and tools for developers, sysadmins, and builders.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Drizzle'],
     detail:
-      'A place to turn small technical ideas into working experiments, with an emphasis on reusable tools and learning by shipping.',
+      'A storefront for ready-to-use assets such as Bash scripts for VPS swap management and automated VPS-to-VPS backups with cron scheduling and Discord alerts. Products come with instant delivery, no login required, and ongoing technical support, with the site available in multiple languages.',
     accent: 'amber',
     links: ['https://altivon.my.id'],
   },
@@ -51,10 +51,10 @@ const projects: Project[] = [
     title: 'Titik Temu',
     category: 'Community Platform',
     description:
-      'A digital space designed to bring people together through social interaction and community activities.',
+      'A welcoming Discord community for conversations, shared interests, and new friendships.',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
     detail:
-      'A frontend-focused project exploring how a simple interface can make community participation feel clear and welcoming.',
+      'A community space built around the idea of finding your place, with a landing site that introduces the community and invites people to join. The focus is on keeping the interface simple, clear, and friendly for newcomers.',
     accent: 'rose',
     links: ['https://titiktemu.space'],
   },
